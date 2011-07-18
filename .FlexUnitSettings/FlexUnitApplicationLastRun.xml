@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="FlexUnit4SampleCIProject">
+<testsuite name="org.flexunit.demo:SampleTest" type="testsuiteclass"/>
+<testsuite name="org.flexunit.demo:EchoPanelTest" type="testsuiteclass"/>
+<testsuite name="net.digitalprimates.fluint.unitTests.frameworkSuite.testCases:TestAssert" type="testsuiteclass"/>
+</testsuite>
+</testrun>

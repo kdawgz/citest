@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="2" hostname="xtremelabs2-PC-2.local" id="0" name="EchoPanelTest" package="org.flexunit.demo" skipped="0" tests="2" time="1.076" timestamp="2011-07-18T21:28:24">
+      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasDispatchedOnClick" time="0.548">
+          <failure message="Timeout Occurred before expected event" type="org.flexunit.demo::EchoPanelTest.testEventWasDispatchedOnClick"><![CDATA[Error: Timeout Occurred before expected event
+	at org.flexunit.internals.runners.statements::ExpectAsync/handleAsyncTimeOut()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at org.flexunit.async::AsyncHandler/handleTimeout()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></failure>
+
+      </testcase>
+
+      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasNotDispatchedWithoutClick" time="0.528">
+          <failure message="Timeout Occurred before expected event" type="org.flexunit.demo::EchoPanelTest.testEventWasNotDispatchedWithoutClick"><![CDATA[Error: Timeout Occurred before expected event
+	at org.flexunit.internals.runners.statements::ExpectAsync/handleAsyncTimeOut()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at org.flexunit.async::AsyncHandler/handleTimeout()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></failure>
+
+      </testcase>
+
+  </testsuite>
+  <testsuite errors="1" failures="1" hostname="xtremelabs2-PC-2.local" id="1" name="SampleTest" package="org.flexunit.demo" skipped="1" tests="3" time="0.545" timestamp="2011-07-18T21:28:24">
+      <testcase classname="org.flexunit.demo::SampleTest" name="testSampleIgnore" time="0.529">
+          <skipped />
+
+      </testcase>
+
+      <testcase classname="org.flexunit.demo::SampleTest" name="testSampleFailure" time="0.015">
+          <failure message="FAIL! - This is a sample test that will fail." type="org.flexunit.demo::SampleTest.testSampleFailure"><![CDATA[FAIL! - This is a sample test that will fail.
+	at org.flexunit::Assert$/fail()
+	at org.flexunit.demo::SampleTest/testSampleFailure()
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at flex.lang.reflect::Method/apply()
+	at org.flexunit.runners.model::FrameworkMethod/invokeExplosively()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleTimerComplete()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></failure>
+
+      </testcase>
+
+      <testcase classname="org.flexunit.demo::SampleTest" name="testSampleError" time="0.001">
+          <error message="ERROR! - This is an error" type="org.flexunit.demo::SampleTest.testSampleError"><![CDATA[Error: ERROR! - This is an error
+	at org.flexunit.demo::SampleTest/testSampleError()
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at flex.lang.reflect::Method/apply()
+	at org.flexunit.runners.model::FrameworkMethod/invokeExplosively()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/evaluate()
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/runChild()
+	at org.flexunit.internals.runners::ChildRunnerSequencer/executeStep()
+	at org.flexunit.internals.runners.statements::StatementSequencer/handleChildExecuteComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/handleBlockComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleNextExecuteComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleTimerComplete()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></error>
+
+      </testcase>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testsuite name="org.flexunit.demo.SampleTest" tests="3" failures="1" errors="1" skipped="1" time="0.545" hostname="xtremelabs2-PC-2.local" timestamp="2011-07-18T21:28:24">
+  <testcase classname="org.flexunit.demo::SampleTest" name="testSampleIgnore" time="0.529">
+    <skipped/>
+  </testcase>
+  <testcase classname="org.flexunit.demo::SampleTest" name="testSampleFailure" time="0.015">
+    <failure message="FAIL! - This is a sample test that will fail." type="org.flexunit.demo::SampleTest.testSampleFailure"><![CDATA[FAIL! - This is a sample test that will fail.
+	at org.flexunit::Assert$/fail()
+	at org.flexunit.demo::SampleTest/testSampleFailure()
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at flex.lang.reflect::Method/apply()
+	at org.flexunit.runners.model::FrameworkMethod/invokeExplosively()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleTimerComplete()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></failure>
+  </testcase>
+  <testcase classname="org.flexunit.demo::SampleTest" name="testSampleError" time="0.001">
+    <error message="ERROR! - This is an error" type="org.flexunit.demo::SampleTest.testSampleError"><![CDATA[Error: ERROR! - This is an error
+	at org.flexunit.demo::SampleTest/testSampleError()
+	at Function/http://adobe.com/AS3/2006/builtin::apply()
+	at flex.lang.reflect::Method/apply()
+	at org.flexunit.runners.model::FrameworkMethod/invokeExplosively()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/evaluate()
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/runChild()
+	at org.flexunit.internals.runners::ChildRunnerSequencer/executeStep()
+	at org.flexunit.internals.runners.statements::StatementSequencer/handleChildExecuteComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.runners::BlockFlexUnit4ClassRunner/handleBlockComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleNextExecuteComplete()
+	at org.flexunit.token::AsyncTestToken/sendResult()
+	at org.flexunit.internals.runners.statements::InvokeMethod/evaluate()
+	at org.flexunit.internals.runners.statements::StackAndFrameManagement/handleTimerComplete()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></error>
+  </testcase>
+</testsuite>
