@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="2" hostname="xtremelabs2-PC-2.local" id="0" name="EchoPanelTest" package="org.flexunit.demo" skipped="0" tests="2" time="1.076" timestamp="2011-07-18T21:28:24">
-      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasDispatchedOnClick" time="0.548">
-          <failure message="Timeout Occurred before expected event" type="org.flexunit.demo::EchoPanelTest.testEventWasDispatchedOnClick"><![CDATA[Error: Timeout Occurred before expected event
-	at org.flexunit.internals.runners.statements::ExpectAsync/handleAsyncTimeOut()
-	at flash.events::EventDispatcher/dispatchEventFunction()
-	at flash.events::EventDispatcher/dispatchEvent()
-	at org.flexunit.async::AsyncHandler/handleTimeout()
-	at flash.events::EventDispatcher/dispatchEventFunction()
-	at flash.events::EventDispatcher/dispatchEvent()
-	at flash.utils::Timer/tick()]]></failure>
-
-      </testcase>
-
-      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasNotDispatchedWithoutClick" time="0.528">
+  <testsuite errors="0" failures="2" hostname="xtremelabs2-PC-2.local" id="0" name="EchoPanelTest" package="org.flexunit.demo" skipped="0" tests="2" time="1.078" timestamp="2011-07-19T19:42:22">
+      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasNotDispatchedWithoutClick" time="0.550">
           <failure message="Timeout Occurred before expected event" type="org.flexunit.demo::EchoPanelTest.testEventWasNotDispatchedWithoutClick"><![CDATA[Error: Timeout Occurred before expected event
 	at org.flexunit.internals.runners.statements::ExpectAsync/handleAsyncTimeOut()
 	at flash.events::EventDispatcher/dispatchEventFunction()
@@ -25,8 +13,20 @@
 
       </testcase>
 
+      <testcase classname="org.flexunit.demo::EchoPanelTest" name="testEventWasDispatchedOnClick" time="0.528">
+          <failure message="Timeout Occurred before expected event" type="org.flexunit.demo::EchoPanelTest.testEventWasDispatchedOnClick"><![CDATA[Error: Timeout Occurred before expected event
+	at org.flexunit.internals.runners.statements::ExpectAsync/handleAsyncTimeOut()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at org.flexunit.async::AsyncHandler/handleTimeout()
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.utils::Timer/tick()]]></failure>
+
+      </testcase>
+
   </testsuite>
-  <testsuite errors="1" failures="1" hostname="xtremelabs2-PC-2.local" id="1" name="SampleTest" package="org.flexunit.demo" skipped="1" tests="3" time="0.545" timestamp="2011-07-18T21:28:24">
+  <testsuite errors="1" failures="1" hostname="xtremelabs2-PC-2.local" id="1" name="SampleTest" package="org.flexunit.demo" skipped="1" tests="3" time="0.545" timestamp="2011-07-19T19:42:22">
       <testcase classname="org.flexunit.demo::SampleTest" name="testSampleIgnore" time="0.529">
           <skipped />
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<testsuite name="org.flexunit.demo.SampleTest" tests="3" failures="1" errors="1" skipped="1" time="0.545" hostname="xtremelabs2-PC-2.local" timestamp="2011-07-18T21:28:24">
+<testsuite name="org.flexunit.demo.SampleTest" tests="3" failures="1" errors="1" skipped="1" time="0.545" hostname="xtremelabs2-PC-2.local" timestamp="2011-07-19T19:42:22">
   <testcase classname="org.flexunit.demo::SampleTest" name="testSampleIgnore" time="0.529">
     <skipped/>
   </testcase>
